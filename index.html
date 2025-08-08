@@ -8,15 +8,15 @@
     <title>판다마켓</title>
     <link rel="icon" href="./images/favicon.svg" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
-    />
+    <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"/>
   </head>
   <body>
     <header class="header">
       <div class="header-container">
         <h1 class="header-logo">
           <a href="/">
-            <img src="./images/logo.svg" alt="판다마켓 로고" />
+            <img class="header-logo-icon" src="./images/logo-icon.svg" alt="판다마켓 로고" />
+            <img class="header-logo-text" src="./images/logo-text.svg" alt="판다마켓 로고 텍스트" />
           </a>
         </h1>
         <a href="/login.html" class="base-btn header-login-btn">로그인</a>
@@ -24,25 +24,27 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero-content">
-          <h2>일상의 모든 물건을 거래해 보세요</h2>
-          <a href="/items.html" class="base-btn hero-items-btn">구경하러 가기</a>
+        <div class="hero-container">
+          <div class="hero-content">
+            <h2>일상의 모든 물건을 거래해 보세요</h2>
+            <a href="/items.html" class="base-btn hero-items-btn">구경하러 가기</a>
+          </div>
+          <img class="hero-img" src="./images/index/img-hero-top.png" alt="판다마켓 상단 배너" />
         </div>
-        <img class="hero-img" src="./images/index/img-hero-top.png" alt="판다마켓 상단 배너" />
       </section>
       <section class="features">
         <div class="feature">
           <img src="./images/index/img-hot-item.png" alt="판다마켓 인기 상품" />
           <div>
             <span class="feature-label hot">Hot Item</span>
-            <h2>인기 상품을<br />확인해 보세요</h2>
+            <h2>인기 상품을 <span>확인해 보세요</span></h2>
             <p class="feature-desc">가장 HOT한 중고거래 물품을<br />판다 마켓에서 확인해 보세요</p>
           </div>
         </div>
         <div class="feature feature-search">
           <div>
             <span class="feature-label search">Search</span>
-            <h2>구매를 원하는<br />상품을 검색하세요</h2>
+            <h2>구매를 원하는 <span>상품을 검색하세요</span></h2>
             <p class="feature-desc">구매하고 싶은 물품을 검색해서<br />쉽게 찾아보세요</p>
           </div>
           <img src="./images/index/img-search.png" alt="판다마켓 검색" />
@@ -51,21 +53,23 @@
           <img src="./images/index/img-register.png" alt="판다마켓 등록" />
           <div>
             <span class="feature-label register">Register</span>
-            <h2>판매를 원하는<br />상품을 등록하세요</h2>
+            <h2>판매를 원하는 <span>상품을 등록하세요</span></h2>
             <p class="feature-desc">어떤 물건이든 판매하고 싶은 상품을<br />쉽게 등록하세요</p>
           </div>
         </div>
       </section>
       <section class="hero">
-        <div class="hero-content">
-          <h2>믿을 수 있는<br />판다마켓 중고 거래</h2>
+        <div class="hero-container">
+          <div class="hero-content">
+            <h2>믿을 수 있는<br />판다마켓 중고 거래</h2>
+          </div>
+          <img class="hero-img" src="./images/index/img-hero-bottom.png" alt="판다마켓 하단 배너" />
         </div>
-        <img class="hero-img" src="./images/index/img-hero-bottom.png" alt="판다마켓 하단 배너" />
       </section>
     </main>
     <footer class="footer">
       <div class="footer-container">
-        <h5 class="footer-copy">&copy;codeit - 2024</h5>
+        <span class="footer-copy">&copy;codeit - 2024</span>
         <nav class="footer-center-nav">
           <a href="/privacy.html" class="footer-link">Privacy Policy</a>
           <a href="/faq.html" class="footer-link">FAQ</a>
