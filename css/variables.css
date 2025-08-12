@@ -1,5 +1,7 @@
 :root {
   /* Primary color */
+  --primary-300: #1251AA;
+  --primary-200: #1967D6;
   --primary-100: #3692FF;
 
   /* Gray scale */

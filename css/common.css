@@ -9,7 +9,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: #ffffff;
+  background-color: var(--gray-0);
   font-family: "Pretendard", sans-serif;
 }
 
@@ -20,18 +20,24 @@ a {
 
 /* common button */
 .base-btn {
-  background-color: #3692ff;
-  color: #ffffff;
+  background-color: var(--primary-100);
+  color: var(--gray-0);
   text-align: center;
   border: none;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .base-btn:hover,
 .base-btn:focus {
-  background-color: #1967d6;
+  background-color: var(--primary-200);
 }
 
 .base-btn:active {
-  background-color: #1251AA;
+  background-color: var(--primary-300);
+}
+
+/* logo */
+.logo-a-area {
+  display: flex;
+  align-items: center;
 }
