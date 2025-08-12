@@ -1,0 +1,37 @@
+@import './variables.css';
+
+/* common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #ffffff;
+  font-family: "Pretendard", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* common button */
+.base-btn {
+  background-color: #3692ff;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.base-btn:hover,
+.base-btn:focus {
+  background-color: #1967d6;
+}
+
+.base-btn:active {
+  background-color: #1251AA;
+}

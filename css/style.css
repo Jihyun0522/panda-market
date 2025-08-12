@@ -1,21 +1,4 @@
 /* common */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: #ffffff;
-  font-family: "Pretendard", sans-serif;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
 h2 {
   font-size: 40px;
   font-weight: 700;
@@ -28,24 +11,6 @@ h2 {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 200px;
-}
-
-/* common button */
-.base-btn {
-  border: none;
-  background-color: #3692ff;
-  color: #ffffff;
-  text-align: center;
-  cursor: pointer;
-}
-
-.base-btn:hover,
-.base-btn:focus {
-  background-color: #1967d6;
-}
-
-.base-btn:active {
-  background-color: #1251AA;
 }
 
 /* header */
