@@ -42,31 +42,36 @@
 ```
 19-Sprint-Mission/
 ┣ 📂 css
-┃ ┣ 🎨common.css         # 공통 레이아웃, 버튼 스타일
-┃ ┣ 🎨index.css          # 랜딩 페이지 전용 스타일
-┃ ┣ 🎨login.css          # 로그인 페이지 전용 스타일
-┃ ┣ 🎨signup.css         # 회원가입 페이지 전용 스타일
-┃ ┗ 🎨variables.css      # 팔레트, 공통 변수
+┃ ┣ 🎨 auth.css      # 로그인·회원가입 페이지 스타일
+┃ ┣ 🎨 common.css    # 공통 스타일
+┃ ┣ 🎨 index.css     # 랜딩 페이지 스타일
+┃ ┗ 🎨 variables.css # 색상 팔레트, 공통 변수
 ┣ 📂 images
-┃ ┣ 📂 icons
+┃ ┣ 📂 btn # 버튼 관련 아이콘
+┃ ┃ ┣ 🔷 btn_visibility_off.svg
+┃ ┃ ┗ 🔷 btn_visibility_on.svg
+┃ ┣ 📂 icons # SNS 및 서비스 아이콘
 ┃ ┃ ┣ 🔷 ic-facebook.svg
+┃ ┃ ┣ 🔷 ic-google.svg
 ┃ ┃ ┣ 🔷 ic-instagram.svg
+┃ ┃ ┣ 🔷 ic-kakaotalk.svg
 ┃ ┃ ┣ 🔷 ic-twitter.svg
 ┃ ┃ ┗ 🔷 ic-youtube.svg
-┃ ┣ 📂 index
+┃ ┣ 📂 index # 랜딩 페이지 이미지
 ┃ ┃ ┣ 🖼️ img-hero-bottom.png
 ┃ ┃ ┣ 🖼️ img-hero-top.png
 ┃ ┃ ┣ 🖼️ img-hot-item.png
-┃ ┃ ┣ 🖼️ img-register..png
+┃ ┃ ┣ 🖼️ img-register.png
 ┃ ┃ ┗ 🖼️ img-search.png
 ┃ ┣ 🔷 favicon.svg
-┃ ┣ 🔷logo-icon.svg
-┃ ┗ 🔷logo-text.svg
+┃ ┣ 🔷 logo-icon.svg
+┃ ┗ 🔷 logo-text.svg
 ┣ 📄 faq.html
 ┣ 📄 index.html
 ┣ 📄 items.html
 ┣ 📄 login.html
 ┣ 📄 privacy.html
+┣ 📄 signup.html
 ┗ 📄 README.md
 ```
 
@@ -110,19 +115,19 @@
 #### 기본 체크리스트
 
 ##### 공통
-- [ ] 아래로 스크롤 해도 상단 네비게이션 바(Global Navigation Bar)가 최상단에 고정됩니다.
-- [ ] "판다마켓" 클릭 시 루트 페이지("/")로 이동합니다.(새로고침)
-- [ ] 로그인 페이지, 회원가입 페이지 모두 로고 위 상단 여백이 동일합니다.
-- [ ] SNS 아이콘들은 클릭시 각각 실제 서비스 홈페이지로 이동합니다.
+- [x] 아래로 스크롤 해도 상단 네비게이션 바(Global Navigation Bar)가 최상단에 고정됩니다.
+- [x] "판다마켓" 클릭 시 루트 페이지("/")로 이동합니다.(새로고침)
+- [x] 로그인 페이지, 회원가입 페이지 모두 로고 위 상단 여백이 동일합니다.
+- [x] SNS 아이콘들은 클릭시 각각 실제 서비스 홈페이지로 이동합니다.
 
 ##### 로그인 페이지
-- [ ] "회원가입"버튼 클릭 시 "/signup" 페이지로 이동합니다.
+- [x] "회원가입"버튼 클릭 시 "/signup" 페이지로 이동합니다.
 
 ##### 회원가입 페이지
-- [ ] "로그인"버튼 클릭 시 "/login" 페이지로 이동합니다.
+- [x] "로그인"버튼 클릭 시 "/login" 페이지로 이동합니다.
 
 #### 심화 체크리스트
-- [ ] palette에 있는 color값들을 css 변수로 등록하고 사용해 주세요.
-- [ ] 비밀번호 input 요소 위에 비밀번호를 확인할 수 있는 아이콘을 추가해 주세요.
+- [x] palette에 있는 color값들을 css 변수로 등록하고 사용해 주세요.
+- [x] 비밀번호 input 요소 위에 비밀번호를 확인할 수 있는 아이콘을 추가해 주세요.
 
 ---
