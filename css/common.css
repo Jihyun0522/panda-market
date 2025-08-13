@@ -1,0 +1,43 @@
+@import './variables.css';
+
+/* common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--gray-0);
+  font-family: "Pretendard", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* common button */
+.base-btn {
+  background-color: var(--primary-100);
+  color: var(--gray-0);
+  text-align: center;
+  border: none;
+  cursor: pointer; 
+}
+
+.base-btn:hover,
+.base-btn:focus {
+  background-color: var(--primary-200);
+}
+
+.base-btn:active {
+  background-color: var(--primary-300);
+}
+
+/* logo */
+.logo-a-area {
+  display: flex;
+  align-items: center;
+}
