@@ -5,12 +5,12 @@
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
+  padding: 60px 0;
   color: var(--gray-800);
 }
 
 /* logo */
 .auth-logo-box {
-  margin-top: 60px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -31,7 +31,7 @@
 
 /* form */
 .auth-form-box {
-  width: 640px;
+  width: 100%;
 }
 
 .auth-input-box {
@@ -89,7 +89,7 @@
 /* social login */
 .social-login-box {
   display: flex;
-  width: 640px;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   margin: 24px 0;
@@ -99,6 +99,7 @@
 }
 
 .social-login-text {
+  display: inline-block;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -109,9 +110,14 @@
   gap: 16px;
 }
 
+.social-login-link-box img {
+  width: 42px;
+  height: 42px;
+}
+
 /* auth guide */
 .auth-guide-box {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   text-align: center;
 }
@@ -120,4 +126,29 @@
   color: #3182f6;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+/* Tablet: 768px 이상 ~ 1199px 이하 */
+@media (max-width: 1199px) {
+  /* main */
+  .auth-container {
+    padding: 48px 0;
+  }
+}
+
+/* Mobile: 375px 이상 ~ 767px 이하 */
+@media (max-width: 767px) {
+  /* main */
+  .auth-container {
+    max-width: 432px;
+    padding: 24px 16px;
+  }
+
+  .auth-logo-icon {
+    width: 51px;
+  }
+
+  .auth-logo-text {
+    width: 133px;
+  }
 }

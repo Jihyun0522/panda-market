@@ -1,5 +1,22 @@
 @import './variables.css';
 
+/* fonts */
+@font-face {
+  font-family: 'Pretendard-file';
+  src: url('./../fonts/Pretendard-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard-file';
+  src: url('./../fonts/Pretendard-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* common */
 * {
   margin: 0;
@@ -10,7 +27,7 @@
 body {
   overflow-x: hidden;
   background-color: var(--gray-0);
-  font-family: "Pretendard", sans-serif;
+  font-family: "Pretendard", "Pretendard-file", sans-serif;
 }
 
 a {
@@ -34,6 +51,12 @@ a {
 
 .base-btn:active {
   background-color: var(--primary-300);
+}
+
+.base-btn:disabled {
+  background-color: var(--gray-400);
+  color: var(--gray-100);
+  cursor: default;
 }
 
 /* logo */
