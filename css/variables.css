@@ -16,6 +16,9 @@
   --gray-50:  #F9FAFB;
   --gray-0 : #FFFFFF;
 
+  /* Error color */
+  --error-red: #F74747;
+
   /* Background color */
   --background-200: #CFE5FF;
   --background-100: #E6F2FF;
