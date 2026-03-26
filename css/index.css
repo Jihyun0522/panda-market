@@ -147,8 +147,8 @@ main {
 
 .feature h2 {
   width: 293px;
-  letter-spacing: 0.8px;
   margin: 12px 0 24px;
+  letter-spacing: 0.8px;
 }
 
 .feature h2 span {
@@ -260,8 +260,8 @@ main {
   }
 
   .hero-items-btn {
-    padding: 16px 124px;
     margin-bottom: 211px;
+    padding: 16px 124px;
   }
 
   /* hero (bottom) */
@@ -291,9 +291,9 @@ main {
 
   .feature h2 {
     width: 450px;
+    margin-top: 16px;
     font-size: 32px;
     line-height: 42px;
-    margin-top: 16px;
   }
 
   .feature h2 span {
@@ -315,8 +315,8 @@ main {
 @media (max-width: 767px) {
   /* header */
   .header-container {
-    padding: 0 16px;
-    gap: 1
+    gap: 1;
+    padding: 0 16px
   }
 
   /* header */ 
@@ -329,6 +329,10 @@ main {
   }
 
   /* hero */
+  .hero-container {
+    padding: 0;
+  }
+
   .hero-content h2{
     font-size: 32px;
   }
@@ -344,10 +348,10 @@ main {
   }
 
   .hero-items-btn {
+    margin-bottom: 132px;
     padding: 12px 71px;
     font-size: 18px;
     line-height: 26px;
-    margin-bottom: 132px;
   }
 
   /* hero (bottom) */
@@ -371,9 +375,9 @@ main {
 
   .feature h2 {
     width: 330px;
+    margin: 8px 0 16px;
     font-size: 24px;
-    line-height: 32px;
-    margin: 8px 0 16px;;
+    line-height: 32px;;
   }
 
   .feature-desc, .feature-labe {
